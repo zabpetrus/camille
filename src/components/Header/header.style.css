@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+header{
+    text-align: center !important;  
+    justify-content: center; 
+}
+
+.logo{
+    font-family: 'Sacramento', cursive !important;
+    color: rgb(247, 122, 191);  
+     text-decoration: none !important; 
+}
+   

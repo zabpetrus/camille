@@ -1,0 +1,11 @@
+hr{   
+    border-top: dotted 2px rgba(241, 208, 226, 1); 
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    color: rgb(247, 122, 191);  
+}
