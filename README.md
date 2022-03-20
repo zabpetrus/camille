@@ -1,3 +1,13 @@
+# Site de teste criado com react
+
+Foram utilizados as seguintes bibliotecas:
+
+- nivo
+- bootstrap
+
+Antes é necessário instalar o yarn para instalar o nivo
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

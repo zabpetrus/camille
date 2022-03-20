@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import { Revista } from './pages/Revista/Revista';
 
 /** 
  * Uma coisa muito importante aqui:
@@ -28,6 +29,11 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 function App() {
+
+  /** É aqui onde defino o roteamento
+   * Mas o navbar está em outro componente
+   */
+
   return (
     <BrowserRouter>
     <div>      
@@ -35,7 +41,8 @@ function App() {
       <Navbar/>
       <main>
         <Routes>        
-          <Route exact path='/' element={< Home />} ></Route>  
+          <Route exact path='/' element={< Home />} ></Route> 
+          <Route path='/revista' element={<Revista />} ></Route>
           <Route path='/about' element={< About />}></Route>
         </Routes> 
       </main>
